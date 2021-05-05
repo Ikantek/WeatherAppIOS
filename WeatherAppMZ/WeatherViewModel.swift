@@ -24,7 +24,7 @@ class WeatherViewModel: ObservableObject {
         case "Heavy Rain":
             return "🌧"
         case "Snow":
-            return "🌨"
+            return "❄️"
         case "Thunderstorm":
             return "⛈"
         case "Showers":
