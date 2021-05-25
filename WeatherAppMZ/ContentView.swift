@@ -14,6 +14,8 @@ struct ContentView: View {
     var body: some View {
         ScrollView(){
             VStack {
+                TextField("Enter Location", text: $viewModel.woeId).padding()
+                Text(viewModel.message)
                 ForEach(viewModel.records) {
                     record in WeatherView(record: record, viewModel: viewModel)
                 }

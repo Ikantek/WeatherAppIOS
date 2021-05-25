@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0FD1DE265D9D70007CB036 /* MetaWeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FD1DD265D9D70007CB036 /* MetaWeatherResponse.swift */; };
+		AC0FD1E3265D9DED007CB036 /* MetaWeatherFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FD1E2265D9DED007CB036 /* MetaWeatherFetcher.swift */; };
 		ACB1C4E32642AF0F00DEEEDD /* WeatherAppMZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C4E22642AF0F00DEEEDD /* WeatherAppMZApp.swift */; };
 		ACB1C4E52642AF0F00DEEEDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C4E42642AF0F00DEEEDD /* ContentView.swift */; };
 		ACB1C4E72642AF2000DEEEDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB1C4E62642AF2000DEEEDD /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC0FD1DD265D9D70007CB036 /* MetaWeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaWeatherResponse.swift; sourceTree = "<group>"; };
+		AC0FD1E2265D9DED007CB036 /* MetaWeatherFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaWeatherFetcher.swift; sourceTree = "<group>"; };
 		ACB1C4DF2642AF0F00DEEEDD /* WeatherAppMZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAppMZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB1C4E22642AF0F00DEEEDD /* WeatherAppMZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppMZApp.swift; sourceTree = "<group>"; };
 		ACB1C4E42642AF0F00DEEEDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				ACB1C4E62642AF2000DEEEDD /* Assets.xcassets */,
 				ACB1C4EB2642AF2100DEEEDD /* Info.plist */,
 				ACB1C4E82642AF2100DEEEDD /* Preview Content */,
+				AC0FD1DD265D9D70007CB036 /* MetaWeatherResponse.swift */,
+				AC0FD1E2265D9DED007CB036 /* MetaWeatherFetcher.swift */,
 			);
 			path = WeatherAppMZ;
 			sourceTree = "<group>";
@@ -266,9 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB1C4E52642AF0F00DEEEDD /* ContentView.swift in Sources */,
+				AC0FD1E3265D9DED007CB036 /* MetaWeatherFetcher.swift in Sources */,
 				ACB1C5162642B28E00DEEEDD /* WeatherViewModel.swift in Sources */,
 				ACB1C5112642B21000DEEEDD /* WeatherModel.swift in Sources */,
 				ACB1C4E32642AF0F00DEEEDD /* WeatherAppMZApp.swift in Sources */,
+				AC0FD1DE265D9D70007CB036 /* MetaWeatherResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
